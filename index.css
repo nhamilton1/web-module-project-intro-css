@@ -16,67 +16,105 @@ html {
 
 
 nav {
+    /* border: 1px solid black; */
     margin-top: 50px;
     margin-bottom: 50px;
     text-align: center;
+    padding: 30px
 }
 
 nav a{
+    /* border: 1px solid black; */
+    display: inline-block;
     text-decoration:none;
     border-radius: 15%;
-    margin: 5%;
-    padding: 30px;
-    box-sizing: border-box;
-    text-align: center;
+    margin: 7%;
+    padding: 20px;
+    margin-top: -90px;
+    width: 70px;
+    margin-bottom: -1%;
+    transition:.3s;
 }
+
 
 .visit {
     color:white;
     background-color: #FF764E;
+}
+.visit:hover {
+    background-color: white;
+    color: #FF764E;
+    border: 1px solid black;
 }
 
 .park {
     color:white;
     background-color: #5ED3EB;
 }
+.park:hover {
+    background-color: white;
+    color: #5ED3EB;
+    border: 1px solid black;
+}
 
 .involved {
     color:white;
     background-color: #FFCD69;
 }
-
-.head {
-    display: inline-block;
+.involved:hover {
+    background-color: white;
+    color: #FFCD69;
     border: 1px solid black;
+}
+.head {
+    /* border: 1px solid black; */
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 10%;
+    display: block;
 }
 
 .head img{
+    /* border: 1px solid black; */
     border-radius: 50%;
-    width: 20%;
+    width: 25%;
     box-sizing: border-box;
-    display: inline-block;
-    border: 1px solid black;
+    display: block;
+
 }
 
 h1{
-    display:block;
+    /* border: 1px solid black; */
     font-family: 'Chelsea Market', cursive;
-    text-align: center;
-    border: 1px solid black;
-    display: inline-block;
+    margin-top: -22%;
+    font-size: 3.90rem;
+    margin-left: 15%;
 }
 
 .head p{
-    border: 1px solid black;
+    /* border: 1px solid black; */
+    margin-left: 15%;
+    font-size: 1.25rem;
+    margin-top: -10px;
+}
+
+.headp2 {
+    display: inline-block;
+    width: 300px;
+    margin-top: -10px;
 }
 
 .about p{
-    margin-left: 100px;
-    margin-right: 100px;
+    /* border: 1px solid black; */
+    text-align: center;
+    margin-left: 10%;
     background-color: #DDB9A3;
     color:white;
     padding: 15px 15px 15px 15px;
-    font-size: 1.25em;
+    font-size: 1.55em;
+    display: inline-block;
+    width: 80%;
     
 }
 
@@ -85,22 +123,42 @@ h1{
 }
 
 .advice img{
-    width: 150px;
+    display: block;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
 }
+
 .advice p{
-    padding: 5px 5px 5px 5px;
-    margin-left: 400px;
-    margin-right: 400px;
+    /* border: 1px solid black; */
+    padding: 5px 5px 10px 5px;
+    margin-left: 25%;
+    margin-right: 25%;
+    display: inline-block;
+    width: 200px;
 }
 
 .footerimg {
+    /* border: 1px solid black; */
     overflow: hidden;
+    display: block;
+    height: 20%;
+    margin-top: 30px;
 }
 
 .footerimg img{
-    margin: 0 auto;
+    /* border: 1px solid black; */
     width: 100vw;
-    height: 25vh;
-    overflow: hidden;
+    height: 30vh;
     object-fit: cover;
+}
+
+.navbackground nav{
+    /* border: 1px solid black; */
+    background-color: #F9E7DC;
+    margin-top: 30px;
+    padding-top: 60px;
+    padding-bottom: 50px;
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
